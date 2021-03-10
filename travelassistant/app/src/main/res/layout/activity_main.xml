@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/primaryColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/usernameInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="170dp"
+            android:ems="10"
+            android:foreground="@color/secondaryTextColor"
+            android:gravity="center"
+            android:hint="@string/username"
+            android:inputType="textPersonName"
+            android:textColor="@color/secondaryTextColor"
+            android:textColorHint="@color/secondaryTextColorAlpha"
+            android:textColorLink="@color/secondaryTextColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/passwordinput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:foreground="@color/secondaryTextColor"
+            android:gravity="center"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="@color/secondaryTextColor"
+            android:textColorHint="@color/secondaryTextColorAlpha"
+            app:layout_constraintEnd_toEndOf="@+id/usernameInput"
+            app:layout_constraintStart_toStartOf="@+id/usernameInput"
+            app:layout_constraintTop_toBottomOf="@+id/usernameInput" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:onClick="login"
+            app:layout_constraintEnd_toEndOf="@+id/switch2"
+            app:layout_constraintStart_toStartOf="@+id/switch2"
+            app:layout_constraintTop_toBottomOf="@+id/switch2" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/usernameInput"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/usernameInput"
+            app:layout_constraintTop_toTopOf="@+id/usernameInput"
+            app:srcCompat="@drawable/user_silhouette" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/passwordinput"
+            app:layout_constraintStart_toEndOf="@+id/passwordinput"
+            app:layout_constraintTop_toTopOf="@+id/passwordinput"
+            app:srcCompat="@drawable/locked_padlock" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/keep_signed_in"
+            android:textColor="@color/secondaryTextColor"
+            app:layout_constraintEnd_toEndOf="@+id/passwordinput"
+            app:layout_constraintStart_toStartOf="@+id/passwordinput"
+            app:layout_constraintTop_toBottomOf="@+id/passwordinput" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/user" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

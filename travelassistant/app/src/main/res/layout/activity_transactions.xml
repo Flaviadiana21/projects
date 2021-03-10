@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".TransactionsActivity">
+
+    <EditText
+        android:id="@+id/reason"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:hint="Reason for request..."
+        android:lines="3"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:onClick="generateTransactions"
+        android:text="Get Transactions">
+
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:id="@+id/container"
+        android:visibility="invisible"
+        android:orientation="vertical"
+        android:background="@drawable/corner_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Transactions"
+            android:layout_gravity="center_horizontal"
+            android:textSize="40dp"
+            android:textColor="#F8B195"
+            >
+
+        </TextView>
+
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="0,1,2"
+            android:background="@drawable/corner_layout"
+            android:gravity="center">
+
+            <TableRow
+                android:background="#355C7D"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+                <TableRow
+                    android:background="#000000"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    >
+
+
+
+                </TableRow>
+            </TableRow>
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text=" Date "
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#355C7D"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Location "
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#355C7D"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Type"
+                    android:layout_margin="1dp"
+                    android:background="#355C7D"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_column="2"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="01-01-2020"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#355C7D"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Cluj-Napoca"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#355C7D"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="ePayment"
+                    android:layout_margin="1dp"
+                    android:background="#355C7D"
+                    android:gravity="center"
+                    android:layout_column="2" />
+            </TableRow>
+
+
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="12-01-2020"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#355C7D"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Iasi"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#355C7D"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Withdrawl"
+                    android:layout_margin="1dp"
+                    android:background="#355C7D"
+                    android:gravity="center"
+                    android:layout_column="2" />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="08-12-2019"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#355C7D"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Oradea"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#355C7D"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="ePayment"
+                    android:layout_margin="1dp"
+                    android:background="#355C7D"
+                    android:gravity="center"
+                    android:layout_column="2" />
+            </TableRow>
+
+
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_custom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="1100px"
+    android:padding="2dp"
+    android:background="@color/question"
+    >
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300px"
+        android:layout_marginLeft="20px"
+        app:srcCompat="@drawable/a" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300px"
+        android:layout_marginLeft="220px"
+        app:srcCompat="@drawable/b" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300px"
+        android:layout_marginLeft="420px"
+        app:srcCompat="@drawable/c" />
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300px"
+        android:layout_marginLeft="620px"
+        app:srcCompat="@drawable/d1" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300px"
+        android:layout_marginLeft="820px"
+        app:srcCompat="@drawable/d" />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="210px"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Your 5 Day Weather Forecast" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="150px"
+        android:layout_marginRight="150px"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60px"
+        android:layout_marginTop="225px"
+        android:text="15 nov"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="180px"
+        app:srcCompat="@drawable/bottom"
+        />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="650px"
+        android:text="max 20"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="605px"
+        app:srcCompat="@drawable/bottom"
+        />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="795px"
+        android:text="min 12"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="740px"
+        app:srcCompat="@drawable/bottom"
+        />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250px"
+        android:layout_marginTop="650px"
+        android:text="max 25"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230px"
+        android:layout_marginTop="605px"
+        app:srcCompat="@drawable/bottom"
+        />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250px"
+        android:layout_marginTop="795px"
+        android:text="min 15"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230px"
+        android:layout_marginTop="740px"
+        app:srcCompat="@drawable/bottom"
+        />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="450px"
+        android:layout_marginTop="650px"
+        android:text="max 22"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="430px"
+        android:layout_marginTop="605px"
+        app:srcCompat="@drawable/bottom"
+        />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="450px"
+        android:layout_marginTop="795px"
+        android:text="min 10"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="430px"
+        android:layout_marginTop="740px"
+        app:srcCompat="@drawable/bottom"
+        />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="650px"
+        android:layout_marginTop="650px"
+        android:text="max 25"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="630px"
+        android:layout_marginTop="605px"
+        app:srcCompat="@drawable/bottom"
+        />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="650px"
+        android:layout_marginTop="795px"
+        android:text="min 15"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="630px"
+        android:layout_marginTop="740px"
+        app:srcCompat="@drawable/bottom"
+        />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="850px"
+        android:layout_marginTop="650px"
+        android:text="max 30"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="830px"
+        android:layout_marginTop="605px"
+        app:srcCompat="@drawable/bottom"
+        />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="850px"
+        android:layout_marginTop="795px"
+        android:text="min 20"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="830px"
+        android:layout_marginTop="740px"
+        app:srcCompat="@drawable/bottom"
+        />
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260px"
+        android:layout_marginTop="225px"
+        android:text="16 nov"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230px"
+        android:layout_marginTop="180px"
+        app:srcCompat="@drawable/bottom"
+        />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="460px"
+        android:layout_marginTop="225px"
+        android:text="17 nov"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="430px"
+        android:layout_marginTop="180px"
+        app:srcCompat="@drawable/bottom"
+        />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="660px"
+        android:layout_marginTop="225px"
+        android:text="18 nov"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="630px"
+        android:layout_marginTop="180px"
+        app:srcCompat="@drawable/bottom"
+        />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="860px"
+        android:layout_marginTop="225px"
+        android:text="18 nov"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="830px"
+        android:layout_marginTop="180px"
+        app:srcCompat="@drawable/bottom"
+        />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="500px"
+        android:layout_height="100px"
+        android:layout_marginTop="950px"
+        android:layout_marginLeft="700px"
+        android:text="ADD DATA" />
+
+
+</RelativeLayout>

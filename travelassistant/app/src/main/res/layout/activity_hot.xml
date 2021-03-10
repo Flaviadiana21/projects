@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/forumBlue">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#222222"
+        android:textSize="18dp"
+        android:text="Top Users of the Week"
+        android:layout_marginTop="150px"
+        android:layout_marginLeft="50px"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px">
+
+        <TextView
+            android:id="@id/textViewTitleDesign1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="220px"
+            android:layout_marginBottom="8dp"
+            android:text="Mirela"
+            android:textColor="#222222"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="300px"
+            android:text="Is India a good travel destination?" />
+
+        <TextView
+            android:id="@+id/tags"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="380px"
+            android:layout_marginBottom="8dp"
+            android:text="#travel #summer" />
+
+        <TextView
+            android:id="@+id/textViewDateTimeDesign1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="700px"
+            android:layout_marginTop="380px"
+            android:layout_marginRight="20px"
+            android:layout_marginBottom="8dp"
+            android:gravity="end"
+            android:text="05.09.2017 12:12:59"
+            android:textAlignment="textEnd" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="200px"
+            android:background="#cccccc" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="800px"
+            android:layout_marginTop="450px"
+            android:onClick="goSeeQuestion"
+            android:text="View" />
+
+        <TextView
+            android:id="@+id/textViewTitleDesign2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="650px"
+            android:layout_marginBottom="8dp"
+            android:text="user5456"
+            android:textColor="#222222"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tags2"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="830px"
+            android:layout_marginBottom="8dp"
+            android:text="#travel #alone" />
+
+        <TextView
+            android:id="@+id/textViewDateTimeDesign2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="700px"
+            android:layout_marginTop="850px"
+            android:layout_marginRight="20px"
+            android:layout_marginBottom="8dp"
+            android:gravity="end"
+            android:text="05.09.2017 12:12:59"
+            android:textAlignment="textEnd" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="630px"
+            android:background="#cccccc" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="800px"
+            android:layout_marginTop="920px"
+            android:onClick="goSeeQuestion"
+            android:text="View" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="750px"
+            android:text="Where are the best paces to travel alone?" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="1100px"
+            android:background="#cccccc" />
+    </RelativeLayout>
+
+
+</LinearLayout>

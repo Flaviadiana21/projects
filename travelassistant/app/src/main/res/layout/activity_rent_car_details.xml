@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RentCarDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:text="Start Date:">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="99dp"
+            android:text="End Date:">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp">
+    </DatePicker>
+
+        <DatePicker
+                android:id="@+id/datePicker2"
+                android:layout_width="200dp"
+            android:layout_marginLeft="11dp"
+                android:layout_height="300dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp">
+
+        </DatePicker>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:textColor="#000000"
+        android:text="Rent Car"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:onClick="rentCar"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+
+</LinearLayout>

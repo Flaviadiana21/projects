@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Forum.ForumActivity"
+    android:background="@color/forumBlue">
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="30px" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="190px"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageViewStar"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20px"
+            android:layout_marginRight="30px"
+            app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:background="@color/question"
+        android:layout_marginTop="700px"
+        android:id="@+id/textViewTitleDesign2"
+        android:layout_width="match_parent"
+        android:layout_height="230px"
+        android:layout_marginLeft="200px"
+        android:layout_marginBottom="8dp"
+        android:text="user1515"
+        android:textColor="#222222"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_marginTop="850px"
+        android:id="@+id/textViewDateTimeDesign2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:text="05.09.2017 20:12:59"
+        android:layout_marginRight="20px"
+        android:layout_marginBottom="8dp"
+        android:gravity="end"
+        android:layout_marginLeft="700px"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_marginTop="800px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200px"
+        android:text="One of the best in the world" />
+
+
+    <TextView
+        android:background="@color/question"
+        android:layout_marginTop="950px"
+        android:id="@+id/textViewTitleDesign3"
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:layout_marginLeft="200px"
+        android:layout_marginBottom="8dp"
+        android:text="user9715"
+        android:textColor="#222222"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_marginTop="1150px"
+        android:id="@+id/textViewDateTimeDesign3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:text="05.09.2017 22:12:59"
+        android:layout_marginRight="20px"
+        android:layout_marginBottom="8dp"
+        android:gravity="end"
+        android:layout_marginLeft="700px"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_marginTop="1050px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200px"
+        android:text="The most popular India tour is the all time classic Golden Traingle" />
+
+
+
+
+    <TextView
+        android:layout_marginTop="220px"
+        android:id="@+id/textViewTitleDesign1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200px"
+        android:layout_marginBottom="8dp"
+        android:text="Mirela"
+        android:textColor="#222222"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:layout_marginTop="380px"
+        android:id="@+id/tags"
+        android:layout_width="300px"
+        android:layout_height="50px"
+        android:textAlignment="textEnd"
+        android:text="#travel #summer"
+        android:layout_marginBottom="8dp"
+        android:gravity="end"
+        android:layout_marginLeft="200px"/>
+
+    <TextView
+        android:layout_marginTop="380px"
+        android:id="@+id/textViewDateTimeDesign1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:text="05.09.2017 12:12:59"
+        android:layout_marginRight="20px"
+        android:layout_marginBottom="8dp"
+        android:gravity="end"
+        android:layout_marginLeft="700px"/>
+
+
+    <View
+        android:layout_marginTop="200px"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc"
+        android:layout_marginLeft="200px"/>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_marginTop="300px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200px"
+        android:text="Is India a good travel destination?" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="550px"
+        android:text="Answers : "
+        android:textColor="#222222"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="800px"
+        android:layout_height="100px"
+        android:layout_marginTop="1300px"
+        android:layout_marginLeft="150px"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Your answer" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1400px"
+        android:layout_marginLeft="800px"
+        android:text="Send"
+        android:onClick="showMessage2"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

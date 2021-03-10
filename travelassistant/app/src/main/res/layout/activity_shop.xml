@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/forumBlue"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="350px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/goods" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="fragment.DeviceListFragment"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available Offers"
+            android:textColor="#47525E"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="-16dp">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="50dp"
+                android:text="5% off on flights!
+                     3000p"
+                android:onClick="offer1"
+                android:textAllCaps="false"
+                android:foreground="@drawable/globe"
+                android:gravity="bottom|center"
+                android:foregroundGravity="center_vertical|center"
+
+                />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="50dp"
+                android:text="Free tour
+                5000p"
+                android:onClick="offer2"
+                android:foreground="@drawable/hotel"
+                android:textAllCaps="false"
+                android:gravity="bottom|center"
+                android:foregroundGravity="center_vertical|center"
+
+                android:layout_marginLeft="200dp"
+                android:layout_marginRight="50dp" />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="180dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="50dp"
+                android:text="Offer 1
+                6000p"
+                android:foreground="@drawable/beach"
+                android:textAllCaps="false"
+                android:gravity="bottom|center"
+                android:foregroundGravity="center_vertical|center"
+
+                />
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="180dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="50dp"
+                android:text="Offer2
+                7000p"
+                android:foreground="@drawable/family"
+                android:textAllCaps="false"
+                android:gravity="bottom|center"
+                android:foregroundGravity="center_vertical|center"
+                android:layout_marginLeft="200dp"
+                android:layout_marginRight="50dp" />
+
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="310dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="50dp"
+                android:foregroundGravity="center_vertical|center"
+                android:foreground="@drawable/dinner"
+                android:text="Offer3
+                 8000p"
+                android:textAllCaps="false"
+                android:gravity="bottom|center"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="310dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="50dp"
+                android:foreground="@drawable/gift"
+                android:foregroundGravity="center_vertical|center"
+                android:text="Offer4
+                9000p"
+                android:textAllCaps="false"
+                android:gravity="bottom|center"
+                android:layout_marginLeft="200dp"
+                android:layout_marginRight="50dp" />
+
+
+        </RelativeLayout>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

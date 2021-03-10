@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="France"
+        android:id="@+id/menu_france"/>
+    <item android:title="Spain"
+        android:id="@+id/menu_spain"/>
+    <item android:title="Italy"
+        android:id="@+id/menu_italy"/>
+    <item android:title="China"
+        android:id="@+id/menu_china"/>
+</menu>

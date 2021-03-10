@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/forumBlue">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#222222"
+        android:textSize="18dp"
+        android:text="Top Users of the Week"
+        android:layout_marginTop="150px"
+        android:layout_marginLeft="50px"/>
+
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="0px">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/rank"
+        android:layout_marginTop="110px"/>
+        <View
+            android:layout_marginTop="280px"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#222222"
+            android:textSize="18dp"
+            android:text="users1515"
+            android:layout_marginLeft="150px"
+            android:layout_marginTop="110px"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#222222"
+            android:textSize="18dp"
+            android:text="2000p"
+            android:layout_marginLeft="800px"
+            android:layout_marginTop="110px"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/rank"
+            android:layout_marginTop="310px"/>
+        <View
+            android:layout_marginTop="480px"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc"/>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#222222"
+            android:textSize="18dp"
+            android:text="users1557"
+            android:layout_marginLeft="150px"
+            android:layout_marginTop="310px"/>
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#222222"
+            android:textSize="18dp"
+            android:text="1800p"
+            android:layout_marginLeft="800px"
+            android:layout_marginTop="310px"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/rank"
+            android:layout_marginTop="510px"/>
+        <View
+            android:layout_marginTop="680px"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc"/>
+        <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#222222"
+        android:textSize="18dp"
+        android:text="users7894"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="510px"/>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#222222"
+            android:textSize="18dp"
+            android:text="1600p"
+            android:layout_marginLeft="800px"
+            android:layout_marginTop="510px"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

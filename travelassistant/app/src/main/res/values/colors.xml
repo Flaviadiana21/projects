@@ -1,0 +1,17 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<resources>
+  <color name="primaryColor">#00bcd4</color>
+  <color name="primaryLightColor">#62efff</color>
+  <color name="primaryDarkColor">#008ba3</color>
+  <color name="secondaryColor">#ff9800</color>
+  <color name="secondaryLightColor">#ffc947</color>
+  <color name="secondaryDarkColor">#c66900</color>
+  <color name="primaryTextColor">#000000</color>
+  <color name="secondaryTextColor">#ffffff</color>
+  <color name="secondaryTextColorAlpha">#BBFFFFFF</color>
+  <color name="forumBlue">#F0F8FF</color>
+  <color name="question">#B8E2F2</color>
+  <color name="colorPrimary">#00BCD4</color>
+  <color name="colorPrimaryDark">#0097A7</color>
+  <color name="colorAccent">#009688</color>
+</resources>
